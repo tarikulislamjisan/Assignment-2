@@ -1,70 +1,80 @@
-.inter{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: auto;
-    font-style: normal;
-  }
-  /* header */
-  header{
-    width: 1500px;
-  }
-  /* banner section */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
 
-  .banner{
-background-color: rgba(17, 17, 17, 1);
-
-  }
-a{
-    text-decoration: none;
-    color:aliceblue;
-  }
-li{
-    list-style-type: none;
 }
-.Fitness{
-    color:  rgba(230, 83, 60, 1);
-    font-size: 2.2rem;
-    font-weight: 800;
-     margin-right: 670px;
-    margin-left: 100px; 
-    
+.bg{
+  background-color: rgba(17, 17, 17, 1);
 }
 
-.navbar-head{
-display: flex;
-justify-content: space-between;
-align-items: center;
+
+
+/* banner section */
+
+.banner {
+
 }
-.display-flex{
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+li {
+  list-style-type: none;
+}
+
+.Fitness {
+  color: rgba(230, 83, 60, 1);
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-right: 670px;
+  margin-left: 100px;
+
+}
+
+.navbar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display-flex {
   display: flex;
   margin-right: 100px;
 }
-.home-btn{
-   background-color:  rgba(230, 83, 60, 1);
-   border-radius: 50px;
-   color: aliceblue;
-  padding: 8px, 20px, 8px, 20px;
-  width: 100px;
-  height: 40px;
 
-   
-}
-.banner-title{
+ .home-btn {
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 50px;
+  color: aliceblue;
+  padding: 8px, 20px, 8px, 20px;
+
+  
+
+
+} 
+
+.banner-title {
   color: aliceblue;
   margin-left: 200px;
   font-size: 4.5rem;
 }
-.shape{
-  
-  
-                                                
+
+.shape {
+  font-family: "Dancing Script";
 }
-.banner-description{
+
+.banner-description {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   margin-left: 200px;
+  margin-bottom: 30px;
 }
-.club-btn{
+
+.club-btn {
   margin-left: 200px;
   background-color: rgba(230, 83, 60, 1);
   padding-left: 20px;
@@ -72,13 +82,14 @@ align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 44px;
- margin-right: 20px;
- color: aliceblue;
- width: 220px;
- height: 55px;
-  
+  margin-right: 20px;
+  color: aliceblue;
+  width: 220px;
+  height: 55px;
+
 }
-.dwnld-btn{
+
+.dwnld-btn {
   border-radius: 48px;
   padding-left: 30px;
   padding-right: 30px;
@@ -90,79 +101,168 @@ align-items: center;
   height: 55px;
 
 }
-.display-flex1{
+
+.display-flex1 {
   display: flex;
   gap: 30px;
 }
-.fivehundred{
+
+.fivehundred {
   color: aliceblue;
   font-size: 2.5rem;
   align-items: center;
+  font-weight: 700;
+
+
+}
+
+.workout {
+  color: rgba(255, 255, 255, 0.65);
   
  
 }
-.workout{
-color: rgba(255, 255, 255, 0.65);
-}
-.workout-btn{
-background-color: rgba(255, 255, 255, 0.1);
-width: 180px;
-height: 90px;
-border-radius: 15px;
+
+.workout-btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 180px;
+  height: 90px;
+  border-radius: 15px;
+  position: absolute;
+  right: -75px;
+  bottom: -230px;
 
 
 }
-.three-hundred{
-font-size: 1.5rem;
-color: aliceblue;
+.workout-head{
+  position: relative;
 }
-.Tutorial{
-font-size: 1rem;
-color: aliceblue;
+
+.three-hundred {
+  font-size: 1.5rem;
+  color: aliceblue;
 }
-.Tutorial-btn{
-  background-color:rgba(255, 255, 255, 0.1);
+
+.Tutorial {
+  font-size: 1rem;
+  color: aliceblue;
+}
+
+.Tutorial-btn {
+  background-color: rgba(255, 255, 255, 0.1);
   width: 170px;
   height: 80px;
   border-radius: 16px;
-  
-  
+  position: absolute;
+  left: 12px;
+  top: 14px;
+  z-index: -1;
+
+
 }
-.Movement{
- 
-  border-radius: 50%;
+.Tutorial-head{
+  position: relative;
 }
 
+
+
+
+
+/* Habits section */
+.habits-title-clr{
+  color: aliceblue;
+  margin-left: 40px;
+}
+.habits-description-clr{
+  color: rgba(255, 255, 255, 0.5);
+}
+.image-head{
+  display: flex;
+  gap: 100px;
+  margin-left: 200px;
+}
+.radius {
+
+  border-radius: 50%;
+}
+.Movement-title{
+  color: aliceblue;
+ margin-left: 40px;
+  
+}
+.Movement-description{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.habit-title{
+  color: aliceblue;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 200px;
+}
+.habit-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.radius{
+  border-radius: 50%;
+}
+.hide{
+  display: none;
+}
 
 
 @media screen and (max-width:576px) {
-  .Fitness{
+  .Fitness {
     margin: 0px;
   }
-  .banner-title{
+
+  .banner-title {
     margin: 20px;
     width: 422px;
     font-size: 40px;
   }
-  .banner-description{
+
+  .banner-description {
     margin: 30px;
     width: 320px;
-    
+
   }
-  .club-btn{
+
+  .club-btn {
     margin: 30px;
     width: 150px;
     height: 53px;
   }
-  .dwnld-btn{
+
+  .dwnld-btn {
+
     width: 150px;
     height: 53px;
   }
-  .display-flex1{
+
+  .display-flex1 {
     flex-direction: column;
   }
-  .full-width{
+
+  .full-width {
     width: 100%;
     margin-left: 20px;
   }
+  /* habits section */
+  .image-head{
+    flex-direction: column;
+    margin: 100px;
+  }
+  .habit-title{
+    width: 313px;
+    font-size: 2rem;
+    margin-left: 50px;
+  }
+  .habit-description{
+    width: 233px;
+    margin-left: 90px;
+  }
+
 }
