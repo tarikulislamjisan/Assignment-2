@@ -6,7 +6,7 @@
   }
   /* header */
   header{
-    width: 1440px;
+    width: 1500px;
   }
   /* banner section */
 
@@ -127,4 +127,42 @@ color: aliceblue;
   border-radius: 16px;
   
   
+}
+.Movement{
+ 
+  border-radius: 50%;
+}
+
+
+
+@media screen and (max-width:576px) {
+  .Fitness{
+    margin: 0px;
+  }
+  .banner-title{
+    margin: 20px;
+    width: 422px;
+    font-size: 40px;
+  }
+  .banner-description{
+    margin: 30px;
+    width: 320px;
+    
+  }
+  .club-btn{
+    margin: 30px;
+    width: 150px;
+    height: 53px;
+  }
+  .dwnld-btn{
+    width: 150px;
+    height: 53px;
+  }
+  .display-flex1{
+    flex-direction: column;
+  }
+  .full-width{
+    width: 100%;
+    margin-left: 20px;
+  }
 }
