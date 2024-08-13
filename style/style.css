@@ -8,6 +8,10 @@
 .bg{
   background-color: rgba(17, 17, 17, 1);
 }
+button{
+  cursor: pointer;
+}
+
 
 
 
@@ -104,7 +108,7 @@ li {
 
 .display-flex1 {
   display: flex;
-  gap: 30px;
+  gap: 200px;
 }
 
 .fivehundred {
@@ -153,9 +157,10 @@ li {
   height: 80px;
   border-radius: 16px;
   position: absolute;
-  left: 12px;
-  top: 14px;
-  z-index: -1;
+  left: -80px;
+  top: -190px;
+  z-index: 20;
+  
 
 
 }
@@ -211,6 +216,228 @@ li {
 .hide{
   display: none;
 }
+/* Run an extra miles section */
+.Miles-head{
+  width: 1050px;
+ height: 310px;
+  background-color: rgb(40,40,40);
+  margin-left: 240px;
+  border-radius: 20px;
+  display: flex;
+  gap: 60px;
+  margin-top: 60px;
+}
+.Miles-title{
+  color: aliceblue;
+  margin-left: 40px;
+  font-size: 50px;
+  margin-top: 20px;
+  
+}
+.Miles-description{
+  margin-left: 40px;
+  color:  rgba(255, 255, 255, 0.5);
+
+}
+.Miles-btn{
+  background-color: rgba(230, 83, 60, 1);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 44px;
+  width: 130px;
+  height: 40px;
+  color: aliceblue;
+  margin-left: 40px;
+}
+.run{
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+margin-top: 33px;
+margin-left: 110px;
+
+}
+.run-img{
+  transform: scale();
+}
+
+/* BMI section */
+.bmi-title{
+  color: aliceblue;
+  text-align: center;
+  font-size: 3rem;
+
+  
+}
+.bmi-description{
+  color: rgba(255, 255, 255, 0.65);
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+/* table section */
+table,td,th{
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  padding: 10px;
+  
+}
+table td{
+  color: rgba(255, 255, 255, 0.5);
+}
+table th{
+  color: lightgray;
+  font-weight: 500;
+}
+table caption{
+color: aliceblue;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+table{
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+/* form section */
+.Calculate-head{
+  color: aliceblue;
+  margin-top: 29px;
+  font-size: 20px;
+}
+.Calculate-title{
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Calculate-description{
+  color: rgba(255, 255, 255, 0.5);
+}
+.bmi-parents{
+  display: flex;
+  gap: 200px;
+  background-color: rgb(40,40,40);
+}
+.bmi-child{
+  
+}
+input{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color:rgba(255, 255, 255, 0.1);
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  
+  
+
+  
+}
+.activity{
+  width: 379px;
+ margin-top: 5px;
+}
+.box{
+  margin-bottom: 5px;
+}
+.bmi-btn{
+  background-color: rgba(230, 83, 60, 1);
+  padding: 10px 30px 10px 30px;
+ 
+  border-radius: 20px;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer section */
+.footer{
+  
+}
+
+.bg-clr{
+  background-color: rgb(40,40,40);
+}
+.footer-description{
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 150px;
+}
+
+.Fitness2 {
+  color: rgba(230, 83, 60, 1);
+  font-size: 3rem;
+  font-weight: 800;
+  
+  margin-left: 150px;
+
+}
+.display-flex3{
+  display: flex;
+  margin-top: 50px;
+  gap: 232px;
+  
+}
+.list-head{
+display: flex;
+margin-top: 40px;
+
+
+
+}
+
+.aliceblue{
+  color: aliceblue;
+  font-size: 20px;
+}
+.list{
+margin-right: 241px;
+}
+.items{
+  color: rgba(255, 255, 255, 0.5);
+}
+.hr-head{
+  padding:130px;
+  color: steelblue;
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.5);
+  
+  margin-left: 620px;
+  padding-bottom: 20px;
+  
+
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:576px) {
@@ -264,5 +491,6 @@ li {
     width: 233px;
     margin-left: 90px;
   }
+
 
 }
