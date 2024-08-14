@@ -17,6 +17,9 @@ button {
 .hide {
   display: none;
 }
+header{
+  max-width: 100%;
+}
 
 
 
