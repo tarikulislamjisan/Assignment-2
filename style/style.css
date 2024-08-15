@@ -5,6 +5,9 @@
   font-style: normal;
 
 }
+*{
+  box-sizing: border-box;
+}
 
 .bg {
   background-color: rgba(17, 17, 17, 1);
@@ -18,15 +21,27 @@ button {
   display: none;
 }
 header{
-  max-width: 100%;
+  
 }
-
+.max-width{
+  max-width: 1440px;
+  margin: 0 auto;
+ 
+  
+}
+.container-max-width{
+  max-width: 1060px;
+  margin: 0 auto;
+  
+}
 
 
 
 /* banner section */
 
-.banner {}
+.banner {
+  margin: 0 auto;
+}
 
 a {
   text-decoration: none;
@@ -41,8 +56,7 @@ li {
   color: rgba(230, 83, 60, 1);
   font-size: 2.2rem;
   font-weight: 800;
-  margin-right: 670px;
-  margin-left: 100px;
+  
 
 }
 
@@ -54,7 +68,7 @@ li {
 
 .display-flex {
   display: flex;
-  margin-right: 100px;
+  justify-content: space-between;
 }
 
 .home-btn {
@@ -70,7 +84,7 @@ li {
 
 .banner-title {
   color: aliceblue;
-  margin-left: 200px;
+  
   font-size: 4.5rem;
 }
 
@@ -81,12 +95,12 @@ li {
 .banner-description {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
-  margin-left: 200px;
+  
   margin-bottom: 30px;
 }
 
 .club-btn {
-  margin-left: 200px;
+ 
   background-color: rgba(230, 83, 60, 1);
   padding-left: 20px;
   padding-right: 20px;
@@ -140,7 +154,7 @@ li {
   border-radius: 15px;
   position: absolute;
   right: -75px;
-  bottom: -230px;
+  top: 125px;
 
 
 }
@@ -165,9 +179,10 @@ li {
   height: 80px;
   border-radius: 16px;
   position: absolute;
-  left: -80px;
-  top: -190px;
-  z-index: 20;
+  left: -113px;
+  bottom: 63px;
+ 
+  
 
 
 
@@ -195,46 +210,54 @@ li {
 /* Habits section */
 .habits-title-clr {
   color: aliceblue;
-  margin-left: 40px;
+  text-align: center;
 }
 
 .habits-description-clr {
   color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .image-head {
-  display: flex;
-  gap: 100px;
-  margin-left: 200px;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+  gap: 40px;
+  
+  
 }
 
 .radius {
 
   border-radius: 50%;
 }
-
+/* 
 .Movement-title {
   color: aliceblue;
-  margin-left: 40px;
+  text-align: center;
+  font-size: 18px;
 
-}
+} */
 
-.Movement-description {
+/* .Movement-description {
   color: rgba(255, 255, 255, 0.5);
-}
+  text-align: center;
+  font-size: 14px;
+} */
 
-.habit-title {
+.habits-title {
   color: aliceblue;
-  font-size: 40px;
+  font-size: 18px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 30px;
+  
 }
 
-.habit-description {
+.habits-description {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 20px;
+  font-size: 14px;
   text-align: center;
-  margin-bottom: 50px;
+  
 }
 
 .radius {
@@ -246,29 +269,33 @@ li {
 }
 
 /* challenge part */
+.text-align{
+  text-align: center;
+}
 .food-head {
   background-color: rgb(40, 40, 40);
-  /* background-color: steelblue; */
+  
   margin-top: 10px;
-  width: 80%;
-  margin-left: 150px;
+ 
+  
 
 
 }
 
 .food-items {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3,1fr);
   gap: 10px;
   margin-top: 30px;
-  margin-left: 45px;
+ 
 
 }
 
 img {
-  width: 70%;
-  height: 60%;
-  margin-top: 20px;
+  width: 100%;
+  height:60%;
+ 
+ 
 }
 
 .food-title1 {
@@ -292,6 +319,7 @@ img {
 
 .food-description {
   color: rgba(255, 255, 255, 0.65);
+  font-size: 0.8rem;
 }
 
 /* Run an extra miles section */
@@ -299,7 +327,7 @@ img {
   width: 1050px;
   height: 310px;
   background-color: rgb(40, 40, 40);
-  margin-left: 240px;
+  
   border-radius: 20px;
   display: flex;
   gap: 60px;
@@ -362,6 +390,9 @@ img {
 }
 
 /* table section */
+table{
+  margin-left: 50px;
+}
 table,
 td,
 th {
@@ -389,10 +420,6 @@ table caption {
 
 }
 
-table {
-  margin-left: 300px;
-  margin-bottom: 50px;
-}
 
 /* form section */
 .Calculate-head {
@@ -413,16 +440,18 @@ table {
 
 .bmi-parents {
   display: flex;
-  gap: 200px;
+  gap: 170px;
   background-color: rgb(40, 40, 40);
+  
 }
 
 .bmi-child {}
 
 .form-head {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2,1fr);
   gap: 15px;
+  box-sizing: border-box;
 
 
 
@@ -432,7 +461,7 @@ table {
 .height {
   background-color: rgba(255, 255, 255, 0.1);
   height: 24px;
-  width: 200px;
+  width: 100%;
   color: red;
   border-radius: 8px;
   border: none;
@@ -441,7 +470,7 @@ table {
 .Weight {
   background-color: rgba(255, 255, 255, 0.1);
   height: 24px;
-  width: 200px;
+  width: 100%;
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.6);
   border: none;
@@ -450,7 +479,7 @@ table {
 .Age {
   background-color: rgba(255, 255, 255, 0.1);
   height: 24px;
-  width: 200px;
+  width: 100%;
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.1);
   border: none;
@@ -460,7 +489,7 @@ table {
 .Sex {
   background-color: rgba(255, 255, 255, 0.1);
   height: 27px;
-  width: 203px;
+  width: 100%;
   border-radius: 8px;
   color: rgb(133, 132, 132);
   border: none;
@@ -500,47 +529,51 @@ table {
 
 .trainer-img {
   display: grid;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  margin-left: 450px;
+  padding: 20px;
+ 
+  background-color: rgba(255, 255, 255, 0.1);
+  
+  
+ 
 
 
+}
+.img-width{
+  width: 100%;
+  height: 300px;
 }
 
 .trainer1 {
   border-radius: 20px;
-  width: 200px;
-  height: 200px;
+  
+  
 }
 
 .trainer2 {
   border-radius: 20px;
-  width: 200px;
-  height: 200px;
+ 
 }
 
 .trainer3 {
   border-radius: 20px;
-  width: 200px;
-  height: 200px;
+ 
 }
 
 .trainer4 {
   border-radius: 20px;
-  width: 200px;
-  height: 200px;
+  
 }
 
 .trainer5 {
   border-radius: 20px;
-  width: 200px;
-  height: 200px;
+  
 }
 
 .trainer6 {
   border-radius: 20px;
-  width: 200px;
-  height: 200px;
+
 }
 
 .trainer-title {
@@ -551,16 +584,20 @@ table {
 }
 
 .trainer-description {
-  color: aliceblue;
+  color: rgba(255, 255, 255, 0.65);
 
+}
+.trainer-measurement{
+  margin-left: 12px;
+ 
 }
 
 .trainer1-head {
 
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
+  
+  /* border-radius: 20px; */
   position: relative;
+  
 
 
 }
@@ -575,10 +612,12 @@ table {
 
 .trainer4-head {
   position: relative;
+
 }
 
 .trainer5-head {
   position: relative;
+  
 }
 
 .trainer6-head {
@@ -587,7 +626,10 @@ table {
 
 .trainer-text {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
+  bottom: 15px;
+  left: 20px;
+
 }
 
 
@@ -607,15 +649,15 @@ table {
 
 
 /* Footer section */
-.footer {}
 
 .bg-clr {
   background-color: rgb(40, 40, 40);
 }
 
 .footer-description {
-  color: rgba(255, 255, 255, 0.5);
-  margin-left: 150px;
+  color:rgba(255, 255, 255, 0.5);
+  opacity: 50%;
+  margin-left: 50px;
 }
 
 .Fitness2 {
@@ -623,14 +665,19 @@ table {
   font-size: 3rem;
   font-weight: 800;
 
-  margin-left: 150px;
+  margin-left: 50px;
 
+  
+}
+.fitness-head{
+  margin-left: 190px;
 }
 
 .display-flex3 {
   display: flex;
   margin-top: 50px;
-  gap: 232px;
+  gap: 100px;
+  
 
 }
 
@@ -674,7 +721,7 @@ table {
 
 
 
-
+/* Responsive */
 
 
 @media screen and (max-width:576px) {
@@ -721,13 +768,14 @@ table {
 
   /* banner */
   .banner-title {
-    margin: 20px;
+   
     width: 422px;
     font-size: 40px;
+    padding-left: 20px;
   }
 
   .banner-description {
-    margin: 30px;
+    margin-left: 20px;
     width: 320px;
 
   }
@@ -750,7 +798,7 @@ table {
 
   .full-width {
     width: 100%;
-    margin-left: 20px;
+    
   }
 
 
@@ -761,8 +809,8 @@ table {
 
 
   .image-head {
-    flex-direction: column;
-    margin: 50px;
+    grid-template-columns: repeat(1,1fr);
+    
   }
 
   .habit-title {
@@ -784,13 +832,13 @@ table {
 
 /* challenge Part */
 .food-items{
-  grid-template-columns:repeat(1,500px) ;
-  gap: 80px;
+  grid-template-columns:repeat(1,1fr) ;
+  gap: 20px;
   
  
 }
 .food-head{
-  margin-left: 10px;
+  
   width: 100%;
   
 }
@@ -819,6 +867,7 @@ table {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     width: 90%;
   }
 
@@ -856,18 +905,23 @@ table {
 
 
   .trainer-img {
-    grid-template-columns: repeat(1, 400px);
-    display: block;
+    grid-template-columns: repeat(1,1fr);
+    /* display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 50%; */
+    margin: 0 auto;
 
 
 
   }
+ 
 
 
   /* footer */
+  .fitness-head{
+    margin-left: 10px;
+  }
 
   .display-flex3 {
     flex-direction: column;
@@ -875,7 +929,7 @@ table {
 
   .list-head {
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 20px;
   }
 
